@@ -9,7 +9,7 @@
             <div class="col">
                 <input :value="props.tarefaTemporaria" @change="props.editaTarefaTemporaria" required type="text" placeholder="Digite aqui a descrição da tarefa" class="form-control">
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 my-3 my-sm-0">
                 <button type="submit" class="btn btn-primary">Cadastro</button>
             </div>
             <div class="col-md-2">
